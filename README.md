@@ -1,2 +1,0 @@
-# TheraText
-Website for TheraText.
