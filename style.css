@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/*-----------------------------------------------Header stuffs--------------------------------------------------------*/
+/*-----------------------------------------------Header content--------------------------------------------------------*/
 /*header container*/
 .header-div {
     display: flex;
@@ -22,7 +22,10 @@
     border-radius: 50%;
     height: 100px;
 }
-
+.demo-screenshot {
+    max-width: 100%;
+    height: auto;
+}
 /*-----------------------------------------------Description and google form stuffs-----------------------------------*/
 /*Main container holding the description and feedback containers*/
 .about-us-feedback-div {
