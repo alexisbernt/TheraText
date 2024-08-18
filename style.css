@@ -64,6 +64,23 @@
     border-radius: 50%;
 }
 
+/*container for the website access section*/
+.access-div {
+    background: #c9c9c9;
+    margin: 5%;
+    border-style: solid;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*header for the website access section*/
+.access-header {
+    font-size: 38px;
+    margin-bottom: 0px;
+}
+
 /*container for the feedback section*/
 .feedback-div {
     background: #c9c9c9;
