@@ -9,7 +9,7 @@
     display: flex;
     background: #c9c9c9;
     height: 200px;
-    font-size: 48px;
+    font-size: 32px;
     border-style: solid;
     border-radius: 10px;
     align-items: center;
@@ -26,7 +26,7 @@
     max-width: 100%;
     height: auto;
 }
-/*-----------------------------------------------Description and google form stuffs-----------------------------------*/
+/*-----------------------------------------------Description and google form content-----------------------------------*/
 /*Main container holding the description and feedback containers*/
 .about-us-feedback-div {
     display: flex;
