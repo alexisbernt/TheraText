@@ -5,3 +5,7 @@
 index.html
 
 style.css
+
+## Website:
+
+https://alexisbernt.github.io/TheraText/
