@@ -7,21 +7,28 @@ main {
 
 /*------------------------------------------------Navigation Bar------------------------------------------------------*/
 .navbar a{
-    display: block;
     color: #000000;
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     text-decoration: none;
-    font-size: 80px;
     font-weight: bold;
-    width: 60px;
     cursor: pointer;
     user-select: none;
+    font-size: 8vh;
 
 }
 
 .navbar a:hover{
     background-image: linear-gradient(1deg, #c5d968, #85c560);
+}
+
+.navbar img {
+    position: absolute;
+    height: 10vh;
+    right: 3vw;
+    cursor: pointer;
+    user-select: none;
 }
 
 .navbar {
@@ -30,6 +37,7 @@ main {
     top: 0px;
     padding: 0px;
     margin: 0px;
+    height: 10vh;
 }
 
 
