@@ -59,16 +59,21 @@ body:has(.navbar input:checked) .nav_menu{
 /*---------------------------------------------Navigation Bar menu-----------------------------------------------------*/
 .nav_menu {
     position: fixed;
-    background-image: linear-gradient(1deg, #3b67ac, #364e7e);
-    width: 20vw;
+    background-image: linear-gradient(1deg, #1b2545, #20619b);
+    width: 22vw;
     height: 90vh;
     top: 10vh;
     right: 100vw;
     transition-duration: 500ms;
 }
 
+.nav_menu ul{
+    text-align: center;
+}
+
 .nav_menu li{
     list-style-type: none;
+    padding-bottom: 10px;
 }
 
 .nav_menu a{
@@ -76,6 +81,10 @@ body:has(.navbar input:checked) .nav_menu{
     display: block;
     font-size: 8vh;
     color: #c9c9c9;
+}
+
+.nav_menu a:hover{
+    background-image: linear-gradient(1deg, #1b2545, #20619b);
 }
 
 /*-----------------------------------------------Header content--------------------------------------------------------*/
