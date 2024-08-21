@@ -79,7 +79,7 @@ body:has(.navbar input:checked) .nav_menu{
 .nav_menu a{
     text-decoration: none;
     display: block;
-    font-size: 8vh;
+    font-size: 80px;
     color: #c9c9c9;
 }
 
