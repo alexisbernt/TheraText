@@ -190,6 +190,8 @@ body:has(.navbar input:checked) .nav_menu{
 
 .demo {
     display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
     font-size: 28px;
     font-family: "Roboto", serif;
     background: #c9c9c9;
@@ -197,7 +199,7 @@ body:has(.navbar input:checked) .nav_menu{
     border-style: solid;
     border-width: 5px;
     border-radius: 10px;
-    text-align: center;
+    text-align: center; /* Centers text inside its container */
 }
 
 .demo-screenshot {
@@ -213,6 +215,3 @@ body:has(.navbar input:checked) .nav_menu{
     background: #c9c9c9;
     margin: 2%;
 }
-
-
-
