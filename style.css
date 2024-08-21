@@ -185,12 +185,13 @@ body:has(.navbar input:checked) .nav_menu{
 /*-----------------------------------------------screenshot demos and descriptions------------------------------------*/
 .demo-list {
     list-style-type: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .demo {
     display: flex;
-    font-size: 20px;
-
+    font-size: 28px;
+    font-family: "Roboto", serif;
     background: #c9c9c9;
     margin: 5%;
     border-style: solid;
