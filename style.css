@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Roboto', 'Helvetica Neue', serif;
 }
 main {
     margin: 10px;
@@ -91,6 +92,7 @@ body:has(.navbar input:checked) .nav_menu{
 /*header container*/
 .header-div {
     display: flex;
+    font-family: 'Roboto', 'Helvetica Neue', serif;
     background: #c9c9c9;
     height: 200px;
     font-size: 48px;
@@ -185,7 +187,7 @@ body:has(.navbar input:checked) .nav_menu{
 /*-----------------------------------------------screenshot demos and descriptions------------------------------------*/
 .demo-list {
     list-style-type: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Helvetica Neue', serif;
 }
 
 .demo {
