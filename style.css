@@ -1,7 +1,37 @@
----
----
+body {
+    margin: 0px;
+}
+main {
+    margin: 10px;
+}
 
-@import "{{ site.theme }}";
+/*------------------------------------------------Navigation Bar------------------------------------------------------*/
+.navbar a{
+    display: block;
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: bold;
+    width: 60px;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.navbar a:hover{
+    background-image: linear-gradient(1deg, #c5d968, #85c560);
+}
+
+.navbar {
+    background-image: linear-gradient(1deg, #c5d968, #85c560);
+    position: sticky;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
 
 /*-----------------------------------------------Header content--------------------------------------------------------*/
 /*header container*/
@@ -26,7 +56,8 @@
     max-width: 100%;
     height: auto;
 }
-/*-----------------------------------------------Description and google form content-----------------------------------*/
+
+/*-----------------------------------------------Description and google form content----------------------------------*/
 /*Main container holding the description and feedback containers*/
 .about-us-feedback-div {
     display: flex;
