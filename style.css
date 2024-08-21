@@ -1,10 +1,12 @@
 body {
     margin: 0px;
-    font-family: 'Roboto', 'Helvetica Neue', serif;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
 }
+
 main {
     margin: 10px;
 }
+
 
 /*------------------------------------------------Navigation Bar------------------------------------------------------*/
 .hamburger_button{
