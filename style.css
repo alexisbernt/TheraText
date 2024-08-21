@@ -6,12 +6,11 @@ main {
 }
 
 /*------------------------------------------------Navigation Bar------------------------------------------------------*/
-.navbar a{
+.hamburger_button{
     color: #000000;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
-    text-decoration: none;
     font-weight: bold;
     cursor: pointer;
     user-select: none;
@@ -19,7 +18,20 @@ main {
 
 }
 
-.navbar a:hover{
+.hamburger_button:hover{
+    background-image: linear-gradient(1deg, #c5d968, #85c560);
+}
+
+.navbar input{
+    position: absolute;
+    transform: scale(7.0);
+    top: 4vh;
+    left: 4vh;
+    opacity: 0;
+    cursor: pointer;
+}
+
+body:has(.navbar input:hover) .hamburger_button{
     background-image: linear-gradient(1deg, #c5d968, #85c560);
 }
 
@@ -40,6 +52,31 @@ main {
     height: 10vh;
 }
 
+body:has(.navbar input:checked) .nav_menu{
+    right: 80vw;
+}
+
+/*---------------------------------------------Navigation Bar menu-----------------------------------------------------*/
+.nav_menu {
+    position: fixed;
+    background-image: linear-gradient(1deg, #3b67ac, #364e7e);
+    width: 20vw;
+    height: 90vh;
+    top: 10vh;
+    right: 100vw;
+    transition-duration: 500ms;
+}
+
+.nav_menu li{
+    list-style-type: none;
+}
+
+.nav_menu a{
+    text-decoration: none;
+    display: block;
+    font-size: 8vh;
+    color: #c9c9c9;
+}
 
 /*-----------------------------------------------Header content--------------------------------------------------------*/
 /*header container*/
