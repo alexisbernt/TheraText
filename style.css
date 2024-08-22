@@ -79,11 +79,16 @@ body:has(.navbar input:checked) .nav_menu{
     padding-bottom: 10px;
 }
 
+.nav_menu img{
+    width: 18vw;
+}
+
 .nav_menu a{
     text-decoration: none;
     display: block;
-    font-size: 80px;
+    font-size: 4vw;
     color: #c9c9c9;
+    word-wrap: break-word;
 }
 
 .nav_menu a:hover{
