@@ -62,7 +62,8 @@ body:has(.navbar input:checked) .nav_menu{
 /*---------------------------------------------Navigation Bar menu-----------------------------------------------------*/
 .nav_menu {
     position: fixed;
-    background-image: linear-gradient(1deg, #1b2545, #20619b);
+/*     background-image: linear-gradient(1deg, #1b2545, #20619b); */
+    background-image: linear-gradient(1deg, #d3d8e6, #65a1d6); 
     width: 22vw;
     height: 90vh;
     top: 10vh;
@@ -92,7 +93,7 @@ body:has(.navbar input:checked) .nav_menu{
 }
 
 .nav_menu a:hover{
-    background-image: linear-gradient(1deg, #1b2545, #20619b);
+    background-image: linear-gradient(1deg, #d3d8e6, #65a1d6);
 }
 
 /*-----------------------------------------------Header content--------------------------------------------------------*/
